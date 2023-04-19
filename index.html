@@ -7,6 +7,45 @@
     <title>Document</title>
 </head>
 <body>
+
+    <h1>Work out Api</h1>
+
+    <label>Select a type of workout</label>
+    <select name="workoutTypes" id="workoutTypes">
+        <option value="cardio">Cardio</option>
+        <option value="powerlifting">Power Lifting</option>
+        <option value="strength">Strength</option>
+        <option value="stretching">stretching</option>
+    </select>
+    <button id="getWorkoutType">Submit Workout</button>
+    <br>
+
+
+    <label>Select Difficulty of workout </label>
+    <select name="difficulty" id="difficulty">
+        <option value="beginner">Beginner</option>
+        <option value="intermediate">Intermediate</option>
+        <option value="expert">Expert</option>
+    </select>
+    <button id="getDifficulty">Submit difficulty</button>
+    <br>
+
+    <label>Select name of workout</label>
+    <select name="nameOfWorkOut" id="nameOfWorkOut">
+        <option value="press">Press</option>
+        <option value="push">Push</option>
+        <option value="pull">Pull</option>
+    </select>
+    <button id="getWorkoutName">Submit name</button>
+    <br>
+
+    <table>
+        <tr>
+            <td>response body</td>
+            <td id="body"></td>
+        </tr>
+    </table>
+
     
 </body>
 </html>
